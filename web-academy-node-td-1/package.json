@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-cli-wf-academy",
+  "version": "1.0.0",
+  "description": "nodejs cli app tp",
+  "main": "index.js",
+  "repository": "git@gitlab.amiltone.com:etrouillet1/nodejs-cli-wf-academy.git",
+  "author": "<etrouillet@amiltone.com>",
+  "license": "MIT",
+  "scripts": {
+    "validate": "yarn eslint index.js",
+    "jsdoc:generate": "yarn jsdoc -d jsdoc"
+  },
+  "dependencies": {
+    "got": "^11.8.2",
+    "jsdoc": "3.6.3"
+  },
+  "devDependencies": {
+    "eslint": "6.7.2",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2"
+  }
+}

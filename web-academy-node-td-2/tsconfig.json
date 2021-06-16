@@ -1,0 +1,27 @@
+ {
+  "compilerOptions": {
+    "lib": ["es5", "es6"],
+    "baseUrl": ".",
+    "target": "ES2018",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "typeRoots": ["./node_modules/@types"],
+    "resolveJsonModule": true
+  },
+  "compileOnSave": true,
+  "include": ["./**/*.ts", "./api/api-docs.json"]
+}
