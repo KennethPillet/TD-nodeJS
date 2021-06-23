@@ -45,7 +45,6 @@ async function getBooks() {
         newBooks.push(newBook);
         console.log(`Book n° ${newBook.nb + 1}: ${newBook.name}`)
     }
-    console.log(newBooks)
 }
 
 getBooks();

@@ -18,7 +18,7 @@ node **<le_nom_du_fichier>**
 >Pour **3-detailed-args.js characters ou books ou movies**
 >(pour les 2 derniers arguments il affichera une liste correspondantes)
 >Pour characters:
->   - il faut  ajouter un critère de filtre (name, race et/ou realm)
+>   - il faut  ajouter un critère de filtre name=, race= et/ou realm= (écrire le filtre en anglais et connaitre un peu LotR)
 >   -   il affichera une liste des personnages correspondants
 
 > Pour **final-exercice.js** 
